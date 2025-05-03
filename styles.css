@@ -1,14 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{
+    border: solid red ;
+}
 body{
     display: flex;
     font-family: 'Roboto';
     flex-direction: column;
+    height: 100vh;
+    justify-content:space-evenly;
 }
 
 .header,
 .footer{
     background-color: rgb(31 41 55);
+}
+
+.top_of_header{
+    display: flex;
+    justify-content:space-around;
+}
+
+ul{
+    margin: 25px 0px 0px 0px;
+    padding:0px;
+    list-style-type: none;
+    display: flex;
+    gap:16px;
 }
 
 h2{
@@ -21,6 +39,33 @@ h3{
     color: rgb(249 250 248);
 }
 
+img{
+    width: 340px;
+    height: 200px;
+}
+
+.left_lowerSide_header{
+    display:flex;
+    flex-direction:column;
+    width: 450px;
+}
+
+.lowerside{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+.options{
+    text-align: center;
+}
+
+
+.box{
+    height: 0px;
+    width:10px;
+    border: solid black 10px;
+}
 .text{
     font-size : 18px;
     color: rgb(249 250 248);
@@ -28,6 +73,7 @@ h3{
 
 button{
     background-color: rgb(56 130 246);
+    flex: none;
 }
 
 .options{
